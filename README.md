@@ -1,7 +1,7 @@
 # JupICL - Jupyter-Notebook-based Image Class Labeler
 
-JupICL, pronounced 'joop-pickle', is a super easy-to-use, customizable, light-weight image labelling tool running entirely inside a Jupyter notebook that is primarily intended for training image classification models
-But you can also use it for reviewing images and taking free-form notes for each image.
+JupICL, pronounced 'joop-pickle', is a super easy-to-use, customizable, light-weight image labelling tool running entirely inside a Jupyter notebook and is primarily intended for training image classification models.
+Additionally, you can use it for reviewing images and taking free-form notes on each image.
 
 ## Overview
 
