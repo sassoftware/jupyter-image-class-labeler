@@ -5,7 +5,9 @@ Additionally, you can use it for reviewing images and taking free-form notes on 
 
 ## Overview
 
-JupICL makes it blazingly fast, easy, and fun to label tens of thousands of images on your own. You can even customize your keyboard shortcuts without writing any additional code. But if you know some python, you can easily extend and customize the tool even further to suit your particular needs.
+JupICL makes it blazingly fast, easy, and fun to label tens of thousands of images on your own. 
+You can even customize your keyboard shortcuts without writing any additional code.
+But if you know some python, you can easily extend and customize the tool even further to suit your particular needs.
 
 JupICL is NOT for labelling bounding boxes, or labelling pixels as is commonly done for object detection and image segmentation tasks.
 
@@ -26,11 +28,13 @@ Your python environment also needs the cv2 (opencv) and PIL (pillow) image proce
 
 ## Getting Started
 
-Try the ImageDisplay.ipynb to display some images from the ./data directory and optionally take some notes on the images you are viewing. This notebook is also useful for doing some quality review or general data exploration.
+Try the ImageDisplay.ipynb to display some images from the ./data directory and optionally take some notes on the images you are viewing.
+This notebook is also useful for doing some quality review or general data exploration.
 
 OR try running the ImageAnnotator.ipynb for labelling images.  
 
-Note: The ImageAnnotator.ipynb actually moves files around from the source directory into a target directory that gets set-up when running it, which is why it is recommended to make a copy of the './data' directory and to use the copy instead as a source directory. This has already been done for you, as the './images' directory is a copy of './data'.
+Note: The ImageAnnotator.ipynb actually moves files around from the source directory into a target directory that gets set-up when running it, which is why it is recommended to make a copy of the './data' directory and to use the copy instead as a source directory.
+This has already been done for you, as the './images' directory is a copy of './data'.
 
 Attribution: The sample data provided here is an extremely small subset of the [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset.
 
